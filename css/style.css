@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.encabezado-factura{
+    background-color: lightgrey;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 0.15rem dashed;
+}
+.encabezado-factura h2{
+    text-align: center;
+    padding: 20px;
+}
+.titulo-detail{
+    background-color: black;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 20px;
+}
+.body-detail{
+    background-color: rgb(211, 211, 211);
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 0.15rem dashed;
+    height: 15rem;
+    overflow-y: scroll;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 4px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center; /* Añadido para centrar el contenido */
+  }
+
+  .close {
+    color: #aaa;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+
+  p {
+    margin: 8px 0;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 16px 0;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav li {
+    margin-right: 20px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .cta-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+
